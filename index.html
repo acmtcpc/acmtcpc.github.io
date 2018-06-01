@@ -15,7 +15,7 @@
     <!-- Slick slider -->
     <link href="assets/css/slick.css" rel="stylesheet">
     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/red-theme.css" rel="stylesheet">
+    <link id="switcher" href="assets/css/theme-color/dark-red-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
@@ -62,10 +62,9 @@
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
 			      		<li><a href="#mu-hero">Home</a></li>
 				        <li><a href="#mu-about">About Us</a></li>
-				        <li><a href="#mu-schedule">Schedule</a></li>
-			            <li><a href="#mu-speakers">Speakers</a></li>
-			            <li><a href="#mu-pricing">Price</a></li>
-			            <li><a href="#mu-register">Register</a></li>
+				        <li><a href="#mu-schedule">Program</a></li>
+			            <!-- <li><a href="#mu-speakers">Guests</a></li> -->
+			            <li><a href="#mu-register">Registration</a></li>
 			            <li><a href="#mu-sponsors">Sponsors</a></li>
 			            <li><a href="#mu-contact">Contact</a></li>
 			      	</ul>
@@ -83,17 +82,17 @@
 						<!-- Start center Logo -->
 						<div class="mu-logo-area">
 							<!-- text based logo -->
-							<a class="mu-logo" href="#">ACM TCPC 2018 - Tunisian Collegiate Programming Contest</a>
+							<!-- <a class="mu-logo" href="#">ACM TCPC 2018 - Tunisian Collegiate Programming Contest</a> -->
 							<!-- image based logo -->
-							<!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
+							<a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a>
 						</div>
 						<!-- End center Logo -->
 
 						<div class="mu-hero-featured-content">
 
 							<h1>HELLO! WELCOME TO ACM TCPC 2018</h1>
-							<h2>The Biggest National Problem Solving Event</h2>
-							<p class="mu-event-date-line">23 - 24 June, 2018 at ENISo, Sousse.</p>
+							<h2>The Biggest National Problem Solving Event <span class="glyphicon glyphicon-send" aria-hidden="true"></span></h2>
+							<p class="mu-event-date-line"><i class="fa fa-calendar" aria-hidden="true"></i> <b>23 - 24 June</b>, 2018 <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> <b>ENISo</b>, Sousse</p>
 
 							<div class="mu-event-counter-area">
 								<div id="mu-event-counter">
@@ -181,15 +180,14 @@
 						<div class="mu-schedule-area">
 
 							<div class="mu-title-area">
-								<h2 class="mu-title">Schedule Detail</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+								<h2 class="mu-title">Program Detail</h2>
 							</div>
 
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 23 June</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 24 June</a></li>
+								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1st Day / 23 June</a></li>
+								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2nd Day / 24 June</a></li>
 								    <!--li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li-->
 								    
 								</ul>
@@ -200,38 +198,33 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Registration</h3>
+								    				<p class="mu-event-time">9h00 - 11h00</p>
+								    				<h3>Registration <i class="fa fa-list-alt"></i> </h3>
 								    			</div>
 								    		</li>
-								    		<li>
+											<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<p class="mu-event-time">11h00 - 12h00</p>
+								    				<h3><i class="fa fa-unlock"></i> Opening Ceremony</h3>
 								    			</div>
 								    		</li>
-								    		<li>
+											<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
+								    				<p class="mu-event-time">12h00 - 13h00</p>
+								    				<h3>Lunch <i class="fa fa-cutlery" aria-hidden="true"></i></h3>
 								    			</div>
 								    		</li>
-								    		<li>
+											<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
+								    				<p class="mu-event-time">13h00 - 15h00</p>
+								    				<h3>Pause Match World Cup</h3>
+													<p><i class="fa fa-soccer-ball-o"></i> Tunisia vs. Belgium</p>
 								    			</div>
 								    		</li>
-								    		<li>
+											<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<p class="mu-event-time">15h00 - 17h00</p>
+								    				<h3>Practice Session <i class="fa fa-desktop"></i></h3>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -240,38 +233,26 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">7h30 - 9h30</p>
+								    				<h3>Team's Photo Session <i class="fa fa-camera" aria-hidden="true"></i></h3>
+								    			</div>
+								    		</li>
+											<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">10h00 - 15h00</p>
+								    				<h3><i class="fa fa-code" aria-hidden="true"></i> Official Competition TCPC 2018</h3>
+								    			</div>
+								    		</li>
+											<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">15h00 - 16h00</p>
+								    				<h3>Deliberation <i class="fa fa-sort-amount-desc" aria-hidden="true"></i></h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<p class="mu-event-time">16h00 - 17h30</p>
+								    				<h3><i class="fa fa-trophy" aria-hidden="true"></i> Closing Ceremony & Awards</h3>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -288,7 +269,7 @@
 		<!-- End Schedule -->
 
 		<!-- Start Speakers -->
-		<section id="mu-speakers">
+		<!--section id="mu-speakers">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -298,13 +279,11 @@
 								<h2 class="mu-title">Our Speakers</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
 							</div>
-
-							<!-- Start Speakers Content -->
+							
 							<div class="mu-speakers-content">
 
 								<div class="mu-speakers-slider">
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-1.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -317,9 +296,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-2.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -332,10 +309,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-3.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -348,10 +322,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-4.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -364,9 +335,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-1.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -379,9 +348,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-2.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -394,10 +361,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-3.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -410,10 +374,7 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
+									
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-4.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
@@ -426,16 +387,14 @@
 											</ul>
 										</div>
 									</div>
-									<!-- End single speaker -->
 								</div>
 							</div>
-							<!-- End Speakers Content -->
 
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section-->
 		<!-- End Speakers -->
 
 		<!-- Start Venue -->
@@ -446,17 +405,15 @@
 					<div class="col-md-6">
 						<div class="mu-venue-map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.166517694314!2d10.5909016148909!3d35.82038998016209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8aeb930217f1%3A0x26a65273b05b6eff!2sEcole+Nationale+des+Ing%C3%A9nieurs+de+Sousse!5e0!3m2!1sfr!2stn!4v1527661797615" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-							<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8176744277202!2d-81.47150788457147!3d28.424757900613237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e378ec5a9a9%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sbd!4v1503833952781" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe-->
 						</div>
 					</div>
 
 					<div class="col-md-6">
 						<div class="mu-venue-address">
-							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-							<h4>Ecole Nationale des Ingénieurs de Sousse (ENISo)</h4>
-							<h4>المدرسة الوطنية للمهندسين بسوسة</h4>
-							<h4>Pôle technologique de Sousse, Route de Ceinture Sahloul</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis incidunt accusantium porro amet repellendus hic corporis fugiat officiis, sequi iste distinctio possimus dignissimos, veniam quae delectus. Fuga, modi, perferendis!</p>
+							<h2><i class="fa fa-map-signs" aria-hidden="true"></i> Venue</h2><hr/>
+							<h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Ecole Nationale des Ingénieurs de Sousse (ENISo)</h4>
+							<!-- <h4>المدرسة الوطنية للمهندسين بسوسة</h4> -->
+							<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Pôle technologique de Sousse, Route de Ceinture Sahloul</p>
 						</div>
 					</div>
 
@@ -465,91 +422,6 @@
 		</section>
 		<!-- End Venue -->
 
-		<!-- Start Pricing  -->
-		<section id="mu-pricing">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-pricing-area">
-							
-							<div class="mu-title-area">
-								<h2 class="mu-title">Pricing plans</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-							</div>
-							
-							<div class="mu-pricing-conten">
-								<div class="row">
-									
-									<!-- single price item -->
-									<div class="col-md-4">
-										<div class="mu-single-price">
-
-											<div class="mu-single-price-head">
-												<span class="mu-currency">$</span>
-												<span class="mu-rate">12</span>
-												<span class="mu-time">/all days</span>
-											</div>
-											<h3 class="mu-price-title">BASIC</h3>
-											<ul>
-												<li>Basic Class Ticket</li>
-												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
-											</ul>
-											<a class="mu-register-btn" href="#"> Register Now</a>
-										</div>
-									</div>
-									<!-- / single price item -->
-
-									<!-- single price item -->
-									<div class="col-md-4">
-										<div class="mu-single-price mu-popular-price">
-											<span class="mu-price-tag">Popular</span>
-											<div class="mu-single-price-head">
-												<span class="mu-currency">$</span>
-												<span class="mu-rate">22</span>
-												<span class="mu-time">/all days</span>
-											</div>
-											<h3 class="mu-price-title">STANDARD</h3>
-											<ul>
-												<li>Basic Class Ticket</li>
-												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
-											</ul>
-											<a class="mu-register-btn" href="#"> Register Now</a>
-										</div>
-									</div>
-									<!-- / single price item -->
-
-									<!-- single price item -->
-									<div class="col-md-4">
-										<div class="mu-single-price">
-
-											<div class="mu-single-price-head">
-												<span class="mu-currency">$</span>
-												<span class="mu-rate">45</span>
-												<span class="mu-time">/all days</span>
-											</div>
-											<h3 class="mu-price-title">PREMIUM</h3>
-											<ul>
-												<li>Basic Class Ticket</li>
-												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
-											</ul>
-											<a class="mu-register-btn" href="#"> Register Now</a>
-										</div>
-									</div>
-									<!-- / single price item -->
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Pricing -->
-
 		<!-- Start Register  -->
 		<section id="mu-register">
 			<div class="container">
@@ -557,51 +429,18 @@
 					<div class="col-md-12">
 						<div class="mu-register-area">
 
-							<div class="mu-title-area">
-								<h2 class="mu-title">Register Form</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+							<div class="mu-title-areaa">
+								<h2 class="mu-title">Register Your Team</h2>
+								<p>Student teams from all Tunisian universities are welcomed to participate. Each team must consist of three contestants belonging at the same institution/university. A representative of the sponsoring higher education institution or university, commonly a faculty member, should serve as or appoint the team coach. This latter should endorse the eligibility of contestants and serve as the official team coordinator prior to and during contest activities. A team should only have one coach who cannot be a contestant.</p>
+								<div class="alert alert-danger" role="alert">
+									<i class="fa fa-exclamation-circle" aria-hidden="true"></i> The coach must register all team members in the ICPC Registration System <b>before June 20th, 2018 11:59 pm.</b>
+								</div>
+								<p><a href="https://icpc.baylor.edu/regionals/finder/tcpc-2018" title="Team registration link" target="_blank" class="btn btn-lg btn-success">Register Now <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a></p>
+								<p>A team is not eligible to compete in the regional contest until its members are approved by the regional contest director, 
+								through the web registration system. Teams failing to comply with any of these requirements will be considered ineligible to participate. 
+								Only registered reserves may be substituted for contestants. Such substitutions must be entered in the ICPC Registration System by the regional contest director before the beginning of the contest.</p>
 							</div>
-
-							<div class="mu-register-content">
-								<form class="mu-register-form">
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
-											</div>     
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
-											</div>
-										</div>
-										<div class="col-md-6">
-											
-										<div class="form-group"> 
-											<select class="form-control" name="ticket" id="ticket">
-												<option value="0">Basic ($12)</option>
-												<option value="1">Standard ($22)</option>
-												<option value="2">Premium ($45)</option>
-											</select>
-										</div>      
-										</div>
-									</div>
-
-									<button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-					            </form>
-							</div>
-
+							
 						</div>
 					</div>
 				</div>
@@ -617,8 +456,7 @@
 						<div class="mu-faq-area">
 
 							<div class="mu-title-area">
-								<h2 class="mu-title">FAQ</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
+								<h2 class="mu-title">FAQ (Frequently Asked Questions)</h2>
 							</div>
 
 							<div class="mu-faq-content">
@@ -629,14 +467,15 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-							                <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
+							                <span class="fa fa-angle-up"></span> How Can I Participate in ACM TCPC? (Eligibility)
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseOne" class="panel-collapse collapse in">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
+											<p>Student teams from all Tunisian universities are welcomed to participate. Each team must consist of three contestants belonging at the same institution/university. A representative of the sponsoring higher education institution or university, commonly a faculty member, should serve as or appoint the team coach. This latter should endorse the eligibility of contestants and serve as the official team coordinator prior to and during contest activities. A team should only have one coach who cannot be a contestant.</p>
+											<p>A team is not eligible to compete in the regional contest until its members are approved by the regional contest director, through the web registration system. Teams failing to comply with any of these requirements will be considered ineligible to participate. Only registered reserves may be substituted for contestants. Such substitutions must be entered in the ICPC Registration System by the regional contest director before the beginning of the contest.</p>
+										</div>
 							          </div>
 							        </div>
 
@@ -644,48 +483,60 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							                <span class="fa fa-angle-up"></span> TCPC vs ACPC vs ICPC?
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseTwo" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
+											<ul style="margin-left:30px">
+												<li>ACM TCPC : Tunisian Collegiate Programming Contest. It represents the first round qualifying to the regional contest for arab world (ACPC).</li>
+												<li>ACM ACPC : Arab Collegiate Programming Contest. Winning teams that participated in ACPC will be present in the international competition (ICPC).</li>
+												<li>ICPC : International Collegiate Programming Contest.</li>
+											</ul>
+										</div>
 							          </div>
 							        </div>
 
-							        <div class="panel panel-default">
+									<div class="panel panel-default">
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
+							                <span class="fa fa-angle-down"></span> What Is ACM ICPC?
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseThree" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
+							              <p>The ACM ICPC is considered as the "Olympics of Programming Competitions". It is quite simply, the oldest, largest, and most prestigious programming contest in the world.</p>
+
+											<p>The ACM ICPC (Association for Computing Machinery - International Collegiate Programming Contest) is a multi-tier, team-based, programming competition. Headquartered at Baylor University, Texas, it operates according to the rules and regulations formulated by the ACM. The contest participants come from over 2,000 universities that are spread across 80 countries and six continents.</p>
+
+											<p>In terms of prize money, the top team takes home $12,000 along with the ACM ICPC 2014 Gold medal. Three other teams getting Gold Medal are awarded $6,000. Each Silver Medal team gets $3,000 and each Bronze Medal team is awarded $1,500.</p>
+
+											<p>Apart from that, Participants, coaches and registered staff (including volunteer helpers) receive complimentary membership to the ACM for a year.</p>
+
+											<p>And more important than all, the winners also get some super bragging rights and job offers from some of the top software companies in the world!</p>
+										</div>
 							          </div>
 							        </div>
-
-							        <div class="panel panel-default">
+							       
+								   <div class="panel panel-default">
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing. 
+							                <span class="fa fa-angle-up"></span> What Programming Language Can I Use? 
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseFour" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+											You can use <b>Java, C or C++</b>.
 							            </div>
 							          </div>
 							        </div>
 
-							        <div class="panel panel-default">
+							        <!--div class="panel panel-default">
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
@@ -698,7 +549,7 @@
 							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 							            </div>
 							          </div>
-							        </div>
+							        </div-->
 
 
 							    </div>
@@ -720,89 +571,51 @@
 							
 							<div class="mu-title-area">
 								<h2 class="mu-title">Our Sponsors</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
 							</div>
 							
-							<!-- Start spnonsors brand logo -->
 							<div class="mu-sponsors-content">
 								<div class="row">
-								
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<h4><i class="fa fa-certificate" aria-hidden="true"></i> Event Partner</h4>
+										<hr/>
 										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
+											<img src="assets/images/sponsor-logo-sofrecom-tunisie.png" alt="Sofrecom Tunisie Logo">
 										</div>
 									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<h4>Event Host</h4>
+										<hr/>
 										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
+											<img src="assets/images/sponsor-logo-eniso.jpg" alt="ENISo Logo">
 										</div>
 									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<h4>Event Sponsor</h4>
+										<hr/>
 										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
+											<img src="assets/images/sponsor-logo-novation.jpg" alt="Novation City Logo">
 										</div>
 									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-4.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-5.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-6.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-7.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-8.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-9.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
-										</div>
-									</div>
-
 								</div>
 							</div>
-							<!-- End spnonsors brand logo -->
 
+							<h4>Event Supporters</h4>
+							<hr/>
+							<div class="mu-sponsors-content">
+								<div class="row">
+									<div class="col-md-2 col-sm-2 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-arab-league.png" alt="Arab League Logo">
+										</div>
+									</div>
+									<div class="col-md-2 col-sm-2 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-club-acm.png" alt="ACM Club Logo">
+										</div>
+									</div>
+								</div>
+							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -820,33 +633,9 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-heading-title">Contact Us</h2>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+								<p>Feel free to contact us by sending e-mails to <i class="fa fa-envelope-square" aria-hidden="true"></i> <b>eniso.info@gmail.com</b></p>
 							</div>
 
-							<!-- Start Contact Content -->
-							<div class="mu-contact-content">
-								<div class="row">
-
-								<div class="col-md-12">
-									<div class="mu-contact-form-area">
-										<div id="form-messages"></div>
-											<form id="ajax-contact" method="post" action="#" class="mu-contact-form">
-												<div class="form-group">                
-													<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-												</div>
-												<div class="form-group">                
-													<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-												</div>              
-												<div class="form-group">
-													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
-												</div>
-												<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
-								            </form>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- End Contact Content -->
 						</div>
 					</div>
 				</div>
@@ -865,11 +654,11 @@
 				<div class="mu-footer-area">
 					<div class="mu-footer-top">
 						<div class="mu-social-media">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-google-plus"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-							<a href="#"><i class="fa fa-youtube"></i></a>
+							<a href="https://www.facebook.com/acm.tcpc.PageOfficielle/" target="_blank"><i class="fa fa-facebook"></i></a>
+							<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
+							<!-- <a href="#"><i class="fa fa-youtube"></i></a> -->
 						</div>
 					</div>
 					<div class="mu-footer-bottom">
@@ -877,7 +666,6 @@
 					</div>
 				</div>
 			</div>
-
 	</footer>
 	<!-- End footer -->
 
