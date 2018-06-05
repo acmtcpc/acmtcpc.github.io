@@ -2,7 +2,9 @@
 
 
 <p align="center">
-    <img src="/assets/images/logo.jpg"/>
+    <a href="http://acmtcpc.org" target="_blank">
+        <img src="/assets/images/logo.jpg"/>
+    </a>
 </p>
 
 
