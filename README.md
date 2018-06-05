@@ -1,5 +1,9 @@
 # ACMC TCPC 2018 Web site
-![ACM TCPC 2018 Logo](/assets/images/logo.jpg)
+
+<p align="center">
+<img src="/assets/images/logo.jpg"/>
+</p>
+
 ## Description
 
 This is the [ACM TCPC](https://acmtcpc.github.io/) website repository.
