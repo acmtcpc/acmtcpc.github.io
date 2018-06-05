@@ -1,8 +1,10 @@
 # ACMC TCPC 2018 Web site
 
+
 <p align="center">
-    <img style="height: 100px" src="/assets/images/logo.jpg"/>
+    <img src="/assets/images/logo.jpg"/>
 </p>
+
 
 ## Description
 
