@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="http://acmtcpc.org" target="_blank">
-        <img src="/assets/images/logo.jpg"/>
+        <img src="/assets/images/logo.png"/>
     </a>
 </p>
 
