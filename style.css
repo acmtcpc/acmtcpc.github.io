@@ -1124,7 +1124,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -1134,7 +1134,7 @@ button:focus {
 	width: 100%;
 	text-align: center;
 	padding: 0 150px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .mu-faq-content .panel-default {
@@ -1178,7 +1178,7 @@ button:focus {
 /* CONTACT US */
 /*--------------------*/
 
-#mu-contact {
+#mu-contact, #mu-press {
 	background-color: #f8f8f8;
 	display: inline;
 	float: left;
@@ -1188,7 +1188,7 @@ button:focus {
 .mu-contact-area {
 	display: inline;
 	float: left;
-	padding: 100px 0 50px;
+	padding: 50px 0 20px;
 	width: 100%;
 }
 
@@ -1203,8 +1203,8 @@ button:focus {
 .mu-contact-content{
 	display: inline;
 	float: left;
-	margin-top: 50px;
-	padding: 0 20%;
+	margin-top: 20px;
+	padding: 0 15%;
 	width: 100%;
 }
 
@@ -1299,7 +1299,10 @@ button:focus {
 	      border-radius: 4px;
 }
 
-
+.press-media{
+	display: inline-block;
+	font-weight: bold;	
+}
 
 /*--------------------*/
 /* FOOTER */
