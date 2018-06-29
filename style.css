@@ -1087,7 +1087,7 @@ button:focus {
 .mu-sponsors-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 70px 50px 0;
 	width: 100%;
 }
 
@@ -1108,6 +1108,22 @@ button:focus {
 	width: 100%;
 }
 
+
+/*--------------------*/
+/* GALLERY */
+/*--------------------*/
+#mu-gallery{
+	background-color: #f7eaea;
+	display: inline;
+	float: left;
+	padding: 50px 0;
+	position: relative;
+	width: 100%;
+}
+
+#mu-gallery .mu-title-area{
+	margin: 0 0 30px 0;
+}
 
 /*--------------------*/
 /* FAQ */
